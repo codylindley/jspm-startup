@@ -10,7 +10,7 @@ A boiler plate to get you going with jspm.io, ES6, and ES6 modules.
 npm install jspm/jspm-cli -g
 ```
 
-### Step 2: Cloen this repo and from a terminal in the root of the jspm-startup directoy run:
+### Step 2: Clone this repo and from a terminal in the root of the jspm-startup directoy run:
 
 ```
 npm install --dev
