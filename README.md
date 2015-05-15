@@ -1,6 +1,7 @@
 # jspm-startup
 
-## Installation (Note: prerequisites = Node.js):
+## Installation 
+(Note: prerequisites = Node.js):
 
 A boiler plate to get you going with jspm.io, ES6, and ES6 modules.
 
@@ -16,7 +17,7 @@ npm install jspm/jspm-cli -g
 npm install --dev
 ```
 
-and 
+and, then:
 
 ```
 jspm install
@@ -28,7 +29,8 @@ jspm install
 jspm registry create bower jspm-bower-endpoint
 ```
 
-## Serve It (starts browser-sync and servers the index.html in src directory to localhost:3000):
+## Serve It 
+(i.e. starts browser-sync and serves the index.html in src directory to localhost:3000):
 
 ```
 $ npm run serveit
