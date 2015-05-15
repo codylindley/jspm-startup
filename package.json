@@ -8,8 +8,7 @@
   },
   "devDependencies": {
     "browser-sync": "^2.7.1",
-    "jspm": "^0.15.6",
-    "jspm-bower-endpoint": "^0.3.2"
+    "jspm": "^0.15.6"
   },
   "jspm": {
     "directories": {
