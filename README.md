@@ -3,8 +3,6 @@
 ## Installation 
 (Note: prerequisites = Node.js):
 
-A boiler plate to get you going with jspm.io, ES6, and ES6 modules.
-
 ### Step 1: Install jspm globally (might have to sudo)
 
 ```
