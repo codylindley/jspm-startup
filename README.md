@@ -6,25 +6,25 @@
 #### Step 1: Install jspm CLI & jspm-bower-endpoint globally (might have to sudo)
 
 ```
-npm install jspm/jspm-cli jspm-bower-endpoint -g
+sudo npm install jspm/jspm-cli -g
 ```
 
-#### Step 2: Clone this repo and from a terminal in the root of the jspm-startup directoy run:
+#### Step 2: run:
 
 ```
-npm install --dev
+sudo jspm registry create bower jspm-bower-endpoint
+```
+
+#### Step 3: Clone this repo and from a terminal in the root of the jspm-startup directoy run:
+
+```
+sudo npm install --dev
 ```
 
 and, then:
 
 ```
-jspm install
-```
-
-#### Step 3: run:
-
-```
-jspm registry create bower jspm-bower-endpoint
+sudo jspm install
 ```
 
 ## Serve It 
