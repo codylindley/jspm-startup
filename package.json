@@ -7,8 +7,7 @@
     "devMode": "jspm unbundle"
   },
   "devDependencies": {
-    "browser-sync": "^2.7.1",
-    "jspm": "^0.15.6"
+    "browser-sync": "^2.7.1"
   },
   "jspm": {
     "directories": {
