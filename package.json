@@ -4,6 +4,7 @@
   "scripts": {
     "serveit": "browser-sync start --files 'src/**/*.html,src/**/*.css,src/**/*.js' --server 'src'",
     "buildMode": "jspm bundle startup + dropdown/dropdown --inject",
+    "buildSafeMode": "jspm bundle-sfx startup + dropdown/dropdown safe-bundle.js",
     "devMode": "jspm unbundle"
   },
   "devDependencies": {
