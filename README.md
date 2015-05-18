@@ -1,7 +1,7 @@
 # jspm-startup
 
 ## Installation 
-(Note: prerequisites = Node.js):
+(Note: prerequisites = [Node.js](https://nodejs.org/download/)):
 
 #### Step 1: Install jspm CLI globally
 
