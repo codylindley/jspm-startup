@@ -22,7 +22,6 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.10",
     "json": "github:systemjs/plugin-json@0.1.0",
     "kendo-ui": "github:kendo-labs/bower-kendo-ui@2015.1.515",
-    "lodash": "bower:lodash@3.8.0",
     "text": "github:systemjs/plugin-text@0.0.2",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"

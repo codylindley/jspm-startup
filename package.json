@@ -8,7 +8,8 @@
     "devMode": "jspm unbundle"
   },
   "devDependencies": {
-    "browser-sync": "^2.7.1"
+    "browser-sync": "^2.7.1",
+    "jspm": "^0.15.6"
   },
   "jspm": {
     "directories": {
@@ -19,7 +20,6 @@
       "css": "github:systemjs/plugin-css@^0.1.10",
       "json": "github:systemjs/plugin-json@^0.1.0",
       "kendo-ui": "github:kendo-labs/bower-kendo-ui@^2015.1.515",
-      "lodash": "bower:lodash@^3.8.0",
       "text": "github:systemjs/plugin-text@^0.0.2"
     },
     "devDependencies": {

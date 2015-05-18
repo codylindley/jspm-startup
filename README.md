@@ -12,13 +12,13 @@ sudo npm install jspm/jspm-cli -g
 #### Step 2: Clone this repo and from a terminal in the root of the jspm-startup directoy run:
 
 ```
-sudo npm install --dev
+npm install
 ```
 
 and, then:
 
 ```
-sudo jspm install
+jspm install
 ```
 
 ## Serve It 
