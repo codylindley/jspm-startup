@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "browser-sync": "^2.9.10",
-    "jspm": "^0.16.11"
+    "jspm": "^0.16.12"
   },
   "jspm": {
     "directories": {
