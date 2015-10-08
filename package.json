@@ -1,6 +1,6 @@
 {
   "name": "dropdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "serveit": "browser-sync start --files 'src/**/*.html,src/**/*.css,src/**/*.js' --server 'src'",
     "buildMode": "jspm bundle startup + dropdown/dropdown --inject",
@@ -8,24 +8,26 @@
     "devMode": "jspm unbundle"
   },
   "devDependencies": {
-    "browser-sync": "^2.7.1",
-    "jspm": "^0.15.6"
+    "browser-sync": "^2.9.10",
+    "jspm": "^0.16.11"
   },
   "jspm": {
     "directories": {
       "baseURL": "src"
     },
     "dependencies": {
-      "bootstrap": "github:twbs/bootstrap@^3.3.4",
-      "css": "github:systemjs/plugin-css@^0.1.10",
-      "json": "github:systemjs/plugin-json@^0.1.0",
-      "kendo-ui": "github:kendo-labs/bower-kendo-ui@^2015.1.515",
-      "text": "github:systemjs/plugin-text@^0.0.2"
+      "bootstrap": "github:twbs/bootstrap@3.3.4",
+      "css": "github:systemjs/plugin-css@0.1.10",
+      "json": "github:systemjs/plugin-json@0.1.0",
+      "kendo-ui": "github:kendo-labs/bower-kendo-ui@^2015.2.813",
+      "text": "github:systemjs/plugin-text@0.0.2"
     },
     "devDependencies": {
-      "babel": "npm:babel-core@^5.1.13",
-      "babel-runtime": "npm:babel-runtime@^5.1.13",
-      "core-js": "npm:core-js@^0.9.4"
+      "--lastest": "npm:babel-core@^5.8.24",
+      "--lastest-runtime": "npm:babel-runtime@^5.8.24",
+      "babel": "npm:babel-core@5.1.13",
+      "babel-runtime": "npm:babel-runtime@5.1.13",
+      "core-js": "npm:core-js@0.9.4"
     }
   }
 }
