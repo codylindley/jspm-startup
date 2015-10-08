@@ -1,5 +1,5 @@
 //JS
-import kendo from 'kendo-ui';
+import kendo from 'kendo-ui/src/js/kendo.dropdownlist.js';
 //template
 import dropdownTemplate from './dropdownTemplate.html!text';
 //data
